@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Дневник питомца</string>
+    <string name="vaccination_key">%s_вакцинация</string>
+    <string name="vet_visit_key">%s_посещение_ветеринара</string>
+    <string name="cant_sign_in_button">не могу войти</string>
+    <string name="sign_in_button">ВОЙТИ</string>
+    <string name="registration_button">РЕГИСТРАЦИЯ</string>
+    <string name="cookie_and_private_police_accept">Нажимая кнопку Войти или Регистрация, вы соглашаетесь с нашими <b>Условиями использования</b>. Вы можете узнать о том, как мы обрабатываем ваши данные в нашей <b>Политике конфиденциальности</b> и <b>Политике использования файлов cookie</b>.</string>
+    <string name="remember_me">Запомнить меня</string>
+    <string name="password_input_text">Пароль</string>
+    <string name="mail_input_text">Электронная почта</string>
+    <string name="back_button">НАЗАД</string>
+    <string name="confirm_password_input_text">Подтвердите пароль</string>
+    <string name="add_your_pet">Добавить вашего питомца</string>
+    <string name="apply">ПРИМЕНИТЬ</string>
+    <string name="weight">Вес</string>
+    <string name="kg">кг</string>
+    <string name="date_of_birth">Дата рождения</string>
+    <string name="enter_name">Введите имя</string>
+    <string name="your_pet">Ваш питомец</string>
+    <string name="add_pet">Питомцы</string>
+    <string name="add_pet_button">ДОБАВИТЬ</string>
+    <string name="are_you_sure_you_want_to_delete_this_visit">Вы уверены, что хотите удалить эту запись?</string>
+    <string name="are_you_sure_you_want_to_delete_this_vaccination">Вы уверены, что хотите удалить эту запись?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="need_to">" нуждается в "</string>
+    <string name="enter_label">Введите название</string>
+    <string name="enter_time">Введите время</string>
+    <string name="add_new_note">Создать запись</string>
+    <string name="vet_visits">Походы в ветклинику</string>
+    <string name="vaccinations">Вакцинация</string>
+    <string name="choose_action">Выберите действие</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+</resources>

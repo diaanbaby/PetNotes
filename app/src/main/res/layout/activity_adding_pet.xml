@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddingPetActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:text="@string/add_your_pet"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:paddingVertical="5dp"/>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="225dp"
+                android:layout_height="225dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:id="@+id/image_view_pet_photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/placeholder"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/add_new_photo_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"/>
+        </FrameLayout>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+        <EditText
+            android:id="@+id/pet_name_edit_text"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:maxLength="72"
+            android:maxLines="1"
+            android:textColor="@color/black"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/enter_birth_date"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pet_name_edit_text"
+            android:layout_gravity="center"
+            android:layout_margin="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="@string/date_of_birth"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <FrameLayout
+                android:layout_width="5dp"
+                android:layout_height="wrap_content">
+
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/enter_birth_day"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="DD"
+                android:inputType="number|textNoSuggestions"
+                android:maxLength="2"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/neutral_grey"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/enter_birth_month"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="MM"
+                android:inputType="number|textNoSuggestions"
+                android:maxLength="2"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/neutral_grey"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/enter_birth_year"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="YYYY"
+                android:inputType="number|textNoSuggestions"
+                android:maxLength="4"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/neutral_grey"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_below="@id/pet_name_edit_text"
+            android:padding="8dp">
+        <EditText
+            android:id="@+id/pet_weight_edit_text"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/weight"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:maxLength="72"
+            android:maxLines="1"
+            android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kg"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:maxLength="72"
+                android:maxLines="1"
+                android:textColor="@color/black"/>
+    </LinearLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/apply_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background_green"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/white"
+        android:text="@string/apply"/>
+
+</RelativeLayout>

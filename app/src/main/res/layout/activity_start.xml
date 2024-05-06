@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/start_window">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_launcher"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/start_screen_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttons_space"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/cookie_and_private_police_accept"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="normal">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/buttons_space">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sign_up_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/button_background"
+                android:text="@string/registration_button"
+                android:textColor="@color/green"
+                android:textSize="18.76sp"
+                android:textStyle="normal" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sign_in_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/sign_in_button"
+                android:textColor="#ffffff"
+                android:textSize="18.76sp"
+                android:textStyle="normal"
+                android:background="@drawable/button_outline_background"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/forgot_password_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/cant_sign_in_button"
+                android:background="@android:color/transparent"
+                android:textColor="#ffffff"
+                android:textSize="9.38sp"
+                android:textStyle="normal"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

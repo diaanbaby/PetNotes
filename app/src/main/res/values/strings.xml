@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PetNotes</string>
+    <string name="vaccination_key">%s_vaccination</string>
+    <string name="vet_visit_key">%s_vet_visit</string>
+    <string name="cant_sign_in_button">can\'t sign in</string>
+    <string name="sign_in_button">SIGN IN</string>
+    <string name="registration_button">SIGN UP</string>
+    <string name="cookie_and_private_police_accept">By clicking the Sign In or Registration button, you agree to our <b>Terms and Conditions</b>. You can learn about how we process your data in our <b>Privacy Policy</b> and <b>Cookie Policy</b>.</string>
+    <string name="remember_me">Remember me</string>
+    <string name="password_input_text">Password</string>
+    <string name="mail_input_text">E-mail</string>
+    <string name="back_button">BACK</string>
+    <string name="confirm_password_input_text">Confirm password</string>
+    <string name="add_your_pet">Add your pet</string>
+    <string name="apply">APPLY</string>
+    <string name="weight">Weight</string>
+    <string name="kg">Kg</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="your_pet">Your pet</string>
+    <string name="add_pet">Add pet</string>
+    <string name="add_pet_button">ADD PET</string>
+    <string name="are_you_sure_you_want_to_delete_this_visit">Are you sure you want to delete this visit?</string>
+    <string name="are_you_sure_you_want_to_delete_this_vaccination">Are you sure you want to delete this vaccination?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="need_to">" need to "</string>
+    <string name="enter_label">Enter label</string>
+    <string name="enter_time">Enter time</string>
+    <string name="add_new_note">Add new note</string>
+    <string name="vet_visits">Vet Visits</string>
+    <string name="vaccinations">Vaccinations</string>
+    <string name="choose_action">Choose action</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+</resources>
